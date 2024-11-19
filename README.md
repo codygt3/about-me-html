@@ -56,10 +56,11 @@ It should look like this:
 ```
 
 ### 1C
-To make a sub header we will create another tag called <h2> 
+To make a sub header we will create another tag called h2 
 Write down the school you go to under it.
 
 It should look like this:
+
 ```
 <body>
   <h1>My name is Katelyn</h1>
@@ -71,10 +72,10 @@ It should look like this:
 ### 1D
 
 Now create a paragraph about yourself! Talk about your favorite food, your favorite animal and why you joined this class!
-
 You will put this under a <p></p> 
 
 It should look like this:
+
 ```
 <body>
   <h1>My name is Katelyn</h1>
@@ -103,10 +104,20 @@ Add an image of your favorite animal. you are going to put <img src=" "/> and in
 Create a file named `styles.css` and add the following code to style your webpage:
 
 ```css
-body {
-  font-family: Arial, sans-serif;
+picturesize {
+  width: 25px;
+  height: 25px;
 }
 ```
+This adjusts the pixel size of the animal image
+
+### 2b. Size image
+Go back to your index.html file and add "className="picturesize"" before the 'src'.
+
+```
+<img className="picturesize" src="https://www.google.com/imgres?q=giraffe%20animal&imgurl=https%3A%2F%2Flionhabitatranch.org%2Fwp-content%2Fuploads%2F2023%2F09%2FMeet-Ozzie-2.jpg&imgrefurl=https%3A%2F%2Flionhabitatranch.org%2Fanimals%2Fmeet-ozzie-the-giraffe%2F&docid=zEYiYylsmA5eRM&tbnid=5mxxKuPd_n-L5M&vet=12ahUKEwjQurKTpueJAxXiMzQIHbsCAF0QM3oECFkQAA..i&w=900&h=1200&hcb=2&ved=2ahUKEwjQurKTpueJAxXiMzQIHbsCAF0QM3oECFkQAA"/>
+```
+
 
 ### 3. Create the JavaScript File
 
