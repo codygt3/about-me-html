@@ -119,53 +119,13 @@ Go back to your index.html file and add "className="picturesize"" before the 'sr
 ```
 
 
-### 3. Create the JavaScript File
-
-Create a file named `script.js` 
-
-### 4. Link the CSS and JavaScript Files
-
-Ensure that the CSS and JavaScript files are linked correctly in your `index.html` file. The `<link>` tag for CSS should be inside the `<head>` section, and the `<script>` tag for JavaScript should be just before the closing `</body>` tag.
-
-### 5. Open the HTML File in a Browser
-
-Open your `index.html` file in a web browser to see your simple website in action. You should see a styled heading, a paragraph, and a button that displays an alert when clicked.
-
-## Things to Look Out For
-
-- Ensure the file paths in the `<link>` and `<script>` tags are correct.
-- Use proper HTML structure and semantics.
-- Keep your CSS organized and use meaningful class names.
-- Avoid inline styles and JavaScript as much as possible for better maintainability.
-- Test your website in different browsers to ensure compatibility.
 
 ## Stretch Goals
-If you finish early, feel free to try out these additions to your website!
-
-### 6. Make it a Header!
-Enclose the "All About Me" in an ``<h1>`` tag as shown here:
-```<h1> All About Me </h1>```
-<br>
-The full code should now look like this:
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>All About Me</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1> Hello World! </h1>
-  <script src="script.js"></script>
-</body>
-</html>
-```
-
+If you finish early, feel free to add images of your favorite food to your website!
+Make sure to size it the same as your other picture using CSS
 
 ## Conclusion
 
-Congratulations! You've created a simple website using HTML, CSS, and JavaScript. This is just the beginning – there are many more features and technologies to explore. Keep learning and experimenting to build more complex and dynamic websites.
+Congratulations! You've created a simple website using HTML and a little bit of CSS. This is just the beginning – there are many more features and technologies to explore. Keep learning and experimenting to build more complex and dynamic websites.
 
 Feel free to reach out if you have any questions or feedback. Happy coding!
