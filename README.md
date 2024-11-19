@@ -87,7 +87,7 @@ It should look like this:
 
 ### 2 Add an image
 
-Add an image of your favorite animal. you are going to put "<img src=" "/>" and in the quotation marks copy and paste a link of an image of your favorite animal. 
+Add an image of your favorite animal. you are going to put ```"<img src=" "/>"``` and in the quotation marks copy and paste a link of an image of your favorite animal. 
 
 ```
 <body>
