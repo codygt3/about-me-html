@@ -72,7 +72,7 @@ It should look like this:
 ### 1D
 
 Now create a paragraph about yourself! Talk about your favorite food, your favorite animal and why you joined this class!
-You will put this under a <p></p> 
+You will put this under a 'p' tag 
 
 It should look like this:
 
