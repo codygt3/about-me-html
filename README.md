@@ -45,7 +45,7 @@ Open your code editor and create a file named `index.html`. Add the following co
 ```
 
 ### 1B
-Inside the <body></body> tag, use <h1></h1> to put your name!
+Inside the <body></body> tag, use '<h1></h1>' to put your name!
 
 It should look like this:
 ```
@@ -56,7 +56,7 @@ It should look like this:
 ```
 
 ### 1C
-To make a sub header we will create another tag called h2 
+To make a sub header we will create another tag called '<h2></h2>' 
 Write down the school you go to under it.
 
 It should look like this:
@@ -87,7 +87,7 @@ It should look like this:
 
 ### 2 Add an image
 
-Add an image of your favorite animal. you are going to put <img src=" "/> and in the quotation marks copy and paste a link of an image of your favorite animal. 
+Add an image of your favorite animal. you are going to put '<img src=" "/>' and in the quotation marks copy and paste a link of an image of your favorite animal. 
 
 ```
 <body>
