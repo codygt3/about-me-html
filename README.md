@@ -22,16 +22,6 @@ Welcome to week one! We will introduce the basics of HTML and a little preview o
 
 In this tutorial you will learn how to make a About You page using HTML and a preview of CSS.
 
-## Project Structure
-
-Create a project directory and set up the following file structure:
-```plaintext
-simple-website/
-├── index.html
-├── styles.css
-└── script.js
-```
-
 ## Step-by-Step Guide
 
 ### 1. Create the HTML File
@@ -66,7 +56,8 @@ It should look like this:
 ```
 
 ### 1C
-To make a sub header we will create another tag called <h2> right under it. Write down the school you go to.
+To make a sub header we will create another tag called <h2> 
+Write down the school you go to under it.
 
 It should look like this:
 ```
@@ -79,7 +70,7 @@ It should look like this:
 
 ### 1D
 
-Now create a paragraph about yourself. Talk about your favorite food, your favorite animal and why you joined this class!
+Now create a paragraph about yourself! Talk about your favorite food, your favorite animal and why you joined this class!
 
 You will put this under a <p></p> 
 
