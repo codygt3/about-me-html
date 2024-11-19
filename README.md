@@ -1,8 +1,8 @@
-# hello-world-test
+# WEEK 1 HTML INTRO
 
-## Simple Website Tutorial
+## About you page!
 
-Welcome to the Simple Website Tutorial! This guide will walk you through the steps to create a basic website using HTML, CSS, and JavaScript.
+Welcome to week one! We will introduce the basics of HTML and a little preview of CSS.
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ Welcome to the Simple Website Tutorial! This guide will walk you through the ste
 
 ## Introduction
 
-In this tutorial, you'll learn how to create a simple website with an HTML structure, styled with CSS, and interactivity added using JavaScript. By the end of this guide, you will have a basic understanding of how these three technologies work together to create a functional webpage.
+In this tutorial you will learn how to make a About You page using HTML and a preview of CSS.
 
 ## Project Structure
 
@@ -87,8 +87,8 @@ Open your `index.html` file in a web browser to see your simple website in actio
 If you finish early, feel free to try out these additions to your website!
 
 ### 6. Make it a Header!
-Enclose the "Hello World!" in an ``<h1>`` tag as shown here:
-```<h1> Hello World! </h1>```
+Enclose the "All About Me" in an ``<h1>`` tag as shown here:
+```<h1> All About Me </h1>```
 <br>
 The full code should now look like this:
 ```html
@@ -97,7 +97,7 @@ The full code should now look like this:
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Website</title>
+  <title>All About Me</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
