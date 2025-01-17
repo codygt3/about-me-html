@@ -48,7 +48,7 @@ Open your code editor and create a file named `index.html`. Add the following co
 
 ### 2. Create a Body and Header
 The body tag just organizes everything you are going to write! That is why it is called a body. Kind of like a container where the <body> is the top of the lid, and the second </body> is the base of the container. 
-Inside the <body></body> tag, type inside ```<h1></h1>''' This means header 1 which is the biggest size! 
+Inside the <body></body> tag, type inside ```<h1></h1>``` This means header 1 which is the biggest size! 
 In between the header tag introduce yourself by saying 'My name is {your name}.' 
 
 It should look like this:
