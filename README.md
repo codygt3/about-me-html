@@ -7,9 +7,6 @@ Welcome to week one! We will introduce the basics of HTML and a little preview o
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Project Structure](#project-structure)
-- [Step-by-Step Guide](#step-by-step-guide)
   - [1. Create the HTML File](#1-create-the-html-file)
   - [2. Create the CSS File](#2-create-the-css-file)
   - [3. Create the JavaScript File](#3-create-the-javascript-file)
@@ -20,9 +17,11 @@ Welcome to week one! We will introduce the basics of HTML and a little preview o
 
 ## Introduction
 
-In this tutorial you will learn how to make a About You page using HTML and a preview of CSS.
+In this tutorial you will learn how to make an 'About You' page using HTML and a preview of CSS.
 
-## Step-by-Step Guide
+HTML stands for Hypertext Markup Language. It makes the website!
+
+CSS stands for Cascading Style Sheets. This is to make the HTML website more pretty!
 
 ### 1. Create the HTML File
 
@@ -45,7 +44,9 @@ Open your code editor and create a file named `index.html`. Add the following co
 ```
 
 ### 1B
-Inside the <body></body> tag, use ```<h1></h1>''' as a header to put your name!
+The body tag just organizes everything you are going to write! That is why it is called a body. Kind of like a container where the <body> is the top of the lid, and the second </body> is the base of the container. 
+Inside the <body></body> tag, type inside ```<h1></h1>''' This means header 1 which is the biggest size! 
+In between the header tag introduce yourself by saying 'My name is {your name}.' 
 
 It should look like this:
 ```
@@ -56,22 +57,22 @@ It should look like this:
 ```
 
 ### 1C
-To make a sub header we will create another tag called ```<h2></h2>```
-Write down the school you go to under it.
+To make a sub header we will create another tag called ```<h2></h2>``` this is a header that is a little bit smaller than the first one. 
+Write down a short sentence about the school you go to under it.
 
 It should look like this:
 
 ```
 <body>
   <h1>My name is Katelyn</h1>
-  <h2>I go to University of Hawaii At Manoa</h2>
+  <h2>I go to University of Hawaii At Manoa, It is so nice!</h2>
   <script src="script.js"></script>
 </body>
 ```
 
 ### 1D
 
-Now create a paragraph about yourself! Talk about your favorite food, your favorite animal and why you joined this class!
+Now create a paragraph about yourself! Talk about your favorite food, your favorite animal, your favorite hobby and why you joined this class!
 You will put this under a paragraph tag ```<p></p>```
 
 It should look like this:
@@ -89,6 +90,8 @@ It should look like this:
 
 Add an image of your favorite animal. you are going to put ```"<img src=" "/>"``` and in the quotation marks copy and paste a link of an image of your favorite animal. 
 
+The best way to copy an image is to go on google, search up the animal, and then right click over the image and select 'copy image address' then paste that with Control V in the quotation marks.
+
 ```
 <body>
   <h1>My name is Katelyn</h1>
@@ -99,9 +102,15 @@ Add an image of your favorite animal. you are going to put ```"<img src=" "/>"``
 </body>
 ```
 
+## Now It's Time To Make It Pretty!!!
+### This is where we will use CSS
 ### 2. Create the CSS File
 
 Create a file named `styles.css` and add the following code to style your webpage:
+
+
+we want to adjust the size of the picture on our page, so we can call this 'picturesize'
+You can play around with the size but you are going to put open and closing curly braces { } and inside put 'width: ;' and 'height: ;' put whatever number you want and adjust it to your liking! make sure to put px which means pixels at the end of the number and a semicolon to finish your statement.
 
 ```css
 picturesize {
@@ -112,7 +121,7 @@ picturesize {
 This adjusts the pixel size of the animal image
 
 ### 2b. Size image
-Go back to your index.html file and add ```className="picturesize"``` before the 'src'.
+Go back to your index.html file and add ```className="picturesize"``` before the 'src'. This connects the CSS property to the image you want to resize!
 
 ```
 <img className="picturesize" src="https://www.google.com/imgres?q=giraffe%20animal&imgurl=https%3A%2F%2Flionhabitatranch.org%2Fwp-content%2Fuploads%2F2023%2F09%2FMeet-Ozzie-2.jpg&imgrefurl=https%3A%2F%2Flionhabitatranch.org%2Fanimals%2Fmeet-ozzie-the-giraffe%2F&docid=zEYiYylsmA5eRM&tbnid=5mxxKuPd_n-L5M&vet=12ahUKEwjQurKTpueJAxXiMzQIHbsCAF0QM3oECFkQAA..i&w=900&h=1200&hcb=2&ved=2ahUKEwjQurKTpueJAxXiMzQIHbsCAF0QM3oECFkQAA"/>
@@ -121,7 +130,8 @@ Go back to your index.html file and add ```className="picturesize"``` before the
 
 
 ## Stretch Goals
-If you finish early, feel free to add images of your favorite food to your website!
+If you finish early, feel free to add images of your favorite food to your website and resize them to all be the same size!
+Hint: use the same CSS property:)
 Make sure to size it the same as your other picture using CSS
 
 ## Conclusion
