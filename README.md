@@ -8,11 +8,14 @@ Welcome to week one! We will introduce the basics of HTML and a little preview o
 
 - [Introduction](#introduction)
   - [1. Create the HTML File](#1-create-the-html-file)
-  - [2. Create the CSS File](#2-create-the-css-file)
-  - [3. Create the JavaScript File](#3-create-the-javascript-file)
-  - [4. Link the CSS and JavaScript Files](#4-link-the-css-and-javascript-files)
-  - [5. Open the HTML File in a Browser](#5-open-the-html-file-in-a-browser)
-- [Things to Look Out For](#things-to-look-out-for)
+  - [2. Create a Body and Header](#2-create-a-body-and-header)
+  - [3. Sub Header](#3-sub-header)
+  - [4. Make a Paragraph](#4-make-a-paragraph)
+  - [5. Add an image](#5-add-an-image)
+- [Now It's Time To Make It Pretty!!!](#now-its-time-to-make-it-pretty)
+- [Create the CSS File](#create-the-css-file)
+- [Size image](#size-image)
+- [Strech Goals](#stretch-goals)
 - [Conclusion](#conclusion)
 
 ## Introduction
@@ -43,7 +46,7 @@ Open your code editor and create a file named `index.html`. Add the following co
 </html>
 ```
 
-### 1B
+### 2. Create a Body and Header
 The body tag just organizes everything you are going to write! That is why it is called a body. Kind of like a container where the <body> is the top of the lid, and the second </body> is the base of the container. 
 Inside the <body></body> tag, type inside ```<h1></h1>''' This means header 1 which is the biggest size! 
 In between the header tag introduce yourself by saying 'My name is {your name}.' 
@@ -56,7 +59,7 @@ It should look like this:
 </body>
 ```
 
-### 1C
+### 3. Sub Header
 To make a sub header we will create another tag called ```<h2></h2>``` this is a header that is a little bit smaller than the first one. 
 Write down a short sentence about the school you go to under it.
 
@@ -70,7 +73,7 @@ It should look like this:
 </body>
 ```
 
-### 1D
+### 4. Make a Paragraph
 
 Now create a paragraph about yourself! Talk about your favorite food, your favorite animal, your favorite hobby and why you joined this class!
 You will put this under a paragraph tag ```<p></p>```
@@ -86,7 +89,7 @@ It should look like this:
 </body>
 ```
 
-### 2 Add an image
+### 5. Add an image
 
 Add an image of your favorite animal. you are going to put ```"<img src=" "/>"``` and in the quotation marks copy and paste a link of an image of your favorite animal. 
 
@@ -104,7 +107,7 @@ The best way to copy an image is to go on google, search up the animal, and then
 
 ## Now It's Time To Make It Pretty!!!
 ### This is where we will use CSS
-### 2. Create the CSS File
+### Create the CSS File
 
 Create a file named `styles.css` and add the following code to style your webpage:
 
@@ -120,7 +123,7 @@ picturesize {
 ```
 This adjusts the pixel size of the animal image
 
-### 2b. Size image
+### Size image
 Go back to your index.html file and add ```className="picturesize"``` before the 'src'. This connects the CSS property to the image you want to resize!
 
 ```
