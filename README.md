@@ -7,122 +7,137 @@ Welcome to week one! We will introduce the basics of HTML and a little preview o
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Project Structure](#project-structure)
 - [Step-by-Step Guide](#step-by-step-guide)
-  - [1. Create the HTML File](#1-create-the-html-file)
-  - [2. Create the CSS File](#2-create-the-css-file)
-  - [3. Create the JavaScript File](#3-create-the-javascript-file)
-  - [4. Link the CSS and JavaScript Files](#4-link-the-css-and-javascript-files)
-  - [5. Open the HTML File in a Browser](#5-open-the-html-file-in-a-browser)
-- [Things to Look Out For](#things-to-look-out-for)
+  - [1. Start off the HTML](#1-start-off-the-html)
+  - [2. CSS](#2-css)
+- [Stretch Goals](#stretch-goals)
 - [Conclusion](#conclusion)
 
+
 ## Introduction
+
+![website](website.png)
 
 In this tutorial you will learn how to make a About You page using HTML and a preview of CSS.
 
 ## Step-by-Step Guide
 
-### 1. Create the HTML File
+### 1. Start off the HTML
 
-Open your code editor and create a file named `index.html`. Add the following code:
+Go to [codepen.io](codepen.io) and clear your code so you can start fresh! On the HTML area, create an h1 element by typing h1, then pressing tab!
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>All About Me</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  Hello World!
-  <script src="script.js"></script>
-</body>
-</html>
+This will create something that looks like this:
+
 ```
-
-### 1B
-Inside the <body></body> tag, use ```<h1></h1>''' as a header to put your name!
-
-It should look like this:
+<h1></h1>
 ```
-<body>
-  <h1>My name is Katelyn</h1>
-  <script src="script.js"></script>
-</body>
-```
+h1 means Header 1, the biggest of the headers, perfect for a title! In between the carrots (> and <), type in a title for your about me website.
 
-### 1C
-To make a sub header we will create another tag called ```<h2></h2>```
-Write down the school you go to under it.
+```
+<h1>My name is Katelyn</h1>
+```
+Now your preview should look something like this:
+
+![h1](h1.png)
+
+### Sub Header
+To make a sub header we will create another tag called header 2, (```<h2></h2>```). Type h2 and press tab. Header 2 is a little smaller than header 1. Write down the school you go to in it.
 
 It should look like this:
 
 ```
-<body>
-  <h1>My name is Katelyn</h1>
-  <h2>I go to University of Hawaii At Manoa</h2>
-  <script src="script.js"></script>
-</body>
+<h1>My name is Katelyn</h1>
+<h2>I go to University of Hawaii At Manoa</h2>
 ```
+![h2](h2.png)
 
-### 1D
 
-Now create a paragraph about yourself! Talk about your favorite food, your favorite animal and why you joined this class!
-You will put this under a paragraph tag ```<p></p>```
+### Paragraph
 
-It should look like this:
+Now it's time to create a paragraph about yourself! Talk about your favorite food, your favorite animal and why you joined this class! To make a paragraph, use the ```<p>``` tag (type p, and press tab!).
 
-```
-<body>
-  <h1>My name is Katelyn</h1>
-  <h2>I go to University of Hawaii At Manoa</h2>
-  <p>My favorite type of food is seafood! I love crab, lobster rolls and especially sushi! My favorite animal is a giraffe and a husky. I joined this class because it is super fun!</p>
-  <script src="script.js"></script>
-</body>
-```
+![p](p.png)
 
-### 2 Add an image
+### Add an image
 
-Add an image of your favorite animal. you are going to put ```"<img src=" "/>"``` and in the quotation marks copy and paste a link of an image of your favorite animal. 
+Add an image of your favorite animal. Create an image tag by typing img and pressing tab. It'll create different this time:
 
 ```
-<body>
-  <h1>My name is Katelyn</h1>
-  <h2>I go to University of Hawaii At Manoa</h2>
-  <p>My favorite type of food is seafood! I love crab, lobster rolls and especially sushi! My favorite animal is a giraffe and a husky. I joined this class because it is super fun!</p>
-  <img src="https://www.google.com/imgres?q=giraffe%20animal&imgurl=https%3A%2F%2Flionhabitatranch.org%2Fwp-content%2Fuploads%2F2023%2F09%2FMeet-Ozzie-2.jpg&imgrefurl=https%3A%2F%2Flionhabitatranch.org%2Fanimals%2Fmeet-ozzie-the-giraffe%2F&docid=zEYiYylsmA5eRM&tbnid=5mxxKuPd_n-L5M&vet=12ahUKEwjQurKTpueJAxXiMzQIHbsCAF0QM3oECFkQAA..i&w=900&h=1200&hcb=2&ved=2ahUKEwjQurKTpueJAxXiMzQIHbsCAF0QM3oECFkQAA"/>
-  <script src="script.js"></script>
-</body>
+<img src="" alt="">
 ```
 
-### 2. Create the CSS File
+Image tags are different from the other tags, because you don't put text in between two carrots this time. Instead, you have to put a **source** of the image you want into the tag. But how do we get an image source?
 
-Create a file named `styles.css` and add the following code to style your webpage:
+Let's go to google and find a picture of your favorite animal. Click on the images button and select the image that speaks to you! Make sure to click on it to zoom it in.
 
-```css
-picturesize {
-  width: 25px;
-  height: 25px;
+<img src="imageCopy.png" width="500"/> <img src="imageCopy2.png" width="500"/> 
+
+Right click on the picture and find the option that says copy **image** address (or copy **image** link). Go back to your codepen and paste the image address into the **src** field, in between the quotes (**""**)
+
+```
+<img src="https://animalfactguide.com/wp-content/uploads/2020/12/giraffe2-e1724882448817.jpg" alt="">
+```
+
+**_NOTE:_**  Sometimes the image that you used doesn't behave and won't load. If it happens, try another image, or ask a mentor to make sure you're getting the right __image address__. 
+
+If everything went well, you might end up with something like this:
+
+![bigImage](bigImage.png)
+
+Sometimes the image is really big, and we need to make it smaller. We can use CSS to make it the size we want!
+
+
+### 2. CSS
+
+Now, head over to the CSS box. This is a different language than HTML, so things will look a lot different. For now, we'll just use this to change the picture size.
+
+To use CSS, we need to first say what tag we're going to change, the "target". We do this but just typing the tag that we want. We want to change the img tag, so...
+
+```
+img
+```
+
+After saying what you want to change, make a space, type in the open curly brace ```{``` (shift + ```[``` ), then press Enter. If you do this right, you'll have made something that looks like this:
+
+```
+img {
+
 }
 ```
-This adjusts the pixel size of the animal image
 
-### 2b. Size image
-Go back to your index.html file and add ```className="picturesize"``` before the 'src'.
+Now, anything we put in between the two curly braces will affect the img tag! Since we want to change the size, we'll have to use the **width** tag (not  the size tag?? 👀). Type width, then a colon ```:```, a space, then the size of your image. Let's try a size of 200 pixels (200px).
 
 ```
-<img className="picturesize" src="https://www.google.com/imgres?q=giraffe%20animal&imgurl=https%3A%2F%2Flionhabitatranch.org%2Fwp-content%2Fuploads%2F2023%2F09%2FMeet-Ozzie-2.jpg&imgrefurl=https%3A%2F%2Flionhabitatranch.org%2Fanimals%2Fmeet-ozzie-the-giraffe%2F&docid=zEYiYylsmA5eRM&tbnid=5mxxKuPd_n-L5M&vet=12ahUKEwjQurKTpueJAxXiMzQIHbsCAF0QM3oECFkQAA..i&w=900&h=1200&hcb=2&ved=2ahUKEwjQurKTpueJAxXiMzQIHbsCAF0QM3oECFkQAA"/>
+img {
+  width: 200px;
+}
 ```
+
+**_NOTE:_** With CSS, each CSS property needs to have a semicolon ```;``` at the end of it. The semicolon tells the CSS that you're done writing in that line. If you forget the semicolon, it can cause problems when you add more and more properties, so don't forget!
+
+![goodSize](goodSize.png)
+
+Much better! 
 
 
 
 ## Stretch Goals
-If you finish early, feel free to add images of your favorite food to your website!
-Make sure to size it the same as your other picture using CSS
+If you're finished, there's a couple of extra things you can try if you want to see what HTML can do. 
+- Play around with the ```<a>``` tag. It's like a ```<p>``` tag, but has an ```href``` property. Write some text in between the carrots and put a website link like [google.com](google.com) into the href quotes, and see what happens.
+- Mess around with lists. This bunch of code will make a bullet point list of whatever you want: 
+
+```
+<ul>
+  <li>I've</li>
+  <li>Played</li>
+  <li>These</li>
+  <li>Games</li>
+  <li>Before</li>
+</ul>
+```
+
+- Try to add as many pictures to your website as you can. If you're in a group, try to beat them by having more pictures!
+- Try to change the color of your text by using the ```color:``` property in CSS
 
 ## Conclusion
 
