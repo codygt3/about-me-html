@@ -18,7 +18,9 @@ Welcome to week one! We will introduce the basics of HTML and a little preview o
 
 ![website](website.png)
 
-In this tutorial you will learn how to make a About You page using HTML and a preview of CSS.
+![website](website.png)
+
+In this tutorial you will learn how to make an 'About You' page using HTML and a preview of CSS.
 
 ## Step-by-Step Guide
 
